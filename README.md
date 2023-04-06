@@ -2,31 +2,29 @@
 
 OnTime is a web application that helps schools and universities manage their schedules and attendance records.
 
-Installation
+
+## Installation
 
 To install OnTime, follow these steps:
 
-Clone the repository to your local machine using git clone https://github.com/yourusername/OnTime.git
-Install dependencies using npm install
-Start the server using npm start
-Usage
+1. Clone the repository to your local machine using 'git clone https://github.com/yourusername/OnTime.git'
+2. Install dependencies using 'npm install'
+3. Start the server using 'npm start'
 
-Once the server is running, you can access the application by navigating to http://localhost:3000 in your web browser. From there, you can use the application to manage schedules and attendance records.
+## Usage
 
-Contributing
+Instructions for using the project.
+
+## Features
+
+List of features or capabilities of the project.
+
+## Contributing
 
 To contribute to OnTime, follow these steps:
 
-Fork the repository on GitHub
-Create a new branch for your changes using git checkout -b my-branch-name
-Make your changes and commit them using git commit -m "my commit message"
-Push your changes to your fork on GitHub using git push origin my-branch-name
-Submit a pull request on GitHub to merge your changes into the main branch of the OnTime repository
-Database
-
-OnTime uses MongoDB as its database. The collections in the database include:
-
-users: stores information about users of the application
-courses: stores information about courses offered by schools or universities
-schedules: stores information about schedules for each course
-attendanceRecords: stores information about attendance records for each course and each student
+1. Fork the repository on GitHub
+2. Create a new branch for your changes using 'git checkout -b my-branch-name'
+3. Make your changes and commit them using 'git commit -m "my commit message"'
+4. Push your changes to your fork on GitHub using 'git push origin my-branch-name'
+5. Submit a pull request on GitHub to merge your changes into the main branch of the OnTime repository
