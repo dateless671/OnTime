@@ -18,7 +18,7 @@ const scheduleRoutes = require('./routes/scheduleRoutes');
 const attendanceRecordRoutes = require('./routes/attendanceRecordRoutes');
 
 // Set up database connection
-const url = 'mongodb+srv://<username>:<password>@<cluster>.mongodb.net/<database>?retryWrites=true&w=majority';
+const url = 'mongodb+srv://dateless:156414@ontime.lb54dsn.mongodb.net/?retryWrites=true&w=majority';
 const dbName = 'attendance';
 mongoClient.connect(url, { useUnifiedTopology: true }, (err, client) => {
   if (err) {
